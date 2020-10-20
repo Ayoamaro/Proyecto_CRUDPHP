@@ -1,0 +1,116 @@
+#main {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+#main h1 {
+  text-align: center;
+  font-size: xxx-large;
+}
+
+#main h6 {
+  text-align: center;
+  margin-top: -40px;
+  margin-left: 150px;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#content table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#content table tr {
+  border: 1px solid black;
+}
+
+#content table tr th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+  color: #FFFFFF;
+  background-color: #4473C5;
+}
+
+#content table tr td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+  background-color: #DAE1F1;
+}
+
+#content table tr td form {
+  padding: 3px;
+}
+
+#content table tr td form input[type=submit] {
+  padding: 5px;
+  width: 100px;
+}
+
+#content table tr:nth-child(odd) td {
+  background-color: #FFFFFF;
+}
+
+#seleccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#seleccion a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#seleccion a button {
+  width: 90px;
+  padding: 5px;
+}
+
+#seleccion input {
+  padding: 5px 35px 5px;
+  margin: 5px;
+}
+
+p {
+  text-align: center;
+  margin: 35px -5px;
+}
+
+#altas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.altas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.altas input {
+  margin-bottom: 30px;
+  padding: 5px;
+  width: 120px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+#main {
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    h1 {
+        text-align: center;
+        font-size: xxx-large;
+    }
+    h6 {
+        text-align: center;
+        margin-top: -40px;
+        margin-left: 150px;
+    }
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 70%;
+        tr {
+            border: 1px solid black;
+            th {
+                border: 1px solid black;
+                text-align: center;
+                padding: 15px;
+                color: #FFFFFF;
+                background-color: #4473C5;
+            }
+            td {
+                border: 1px solid black;
+                text-align: center;
+                padding: 15px;
+                background-color: #DAE1F1;
+                form {
+                    padding: 3px;
+                    input {
+                        &[type=submit] {
+                            padding: 5px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }  
+            &:nth-child(odd) {
+                td {
+                    background-color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+#seleccion {
+    display: flex;
+    justify-content: center;
+    a {
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        button {
+            width: 90px;
+            padding: 5px;
+        }
+    }
+    input {
+        padding: 5px 35px 5px;
+        margin: 5px;
+    }
+}
+
+p {
+    text-align: center;
+    margin: 35px -5px;
+}
+
+#altas {
+    display: flex;
+    justify-content: center;
+}
+
+
+.altas {
+    display: flex;
+    justify-content: center;
+    input {
+        margin-bottom: 30px; 
+        padding: 5px; 
+        width: 120px;
+    }   
+}
